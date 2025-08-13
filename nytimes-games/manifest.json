@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+
+  "name": "Simple NYT Crosswords UI",
+  "version": "0.0.1",
+
+  "description": "Enhance your NYT crossword experience by removing non-essential UI components from your view",
+  "homepage_url": "http://github.com/pariser",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.nytimes.com/*",
+        "https://*.nytimes.com/*"
+      ],
+      "js": [ "content.js" ]
+    }
+  ]
+}

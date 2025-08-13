@@ -5,7 +5,7 @@
   "version": "0.0.1",
 
   "description": "Enhance your D&D Beyond experience by removing non-essential UI components from your view",
-  "homepage_url": "http://github.com/pariser",
+  "homepage_url": "http://github.com/pariser/glow-up",
 
   "content_scripts": [
     {
